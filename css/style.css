@@ -1,12 +1,11 @@
 :root {
-    --cor-de-fundo: #FFFFFF;
-    --cor-de-texto: #FFFFFF;
-    --cor-texto: #667085;
-    --background-color-btn: #8E2424;
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --basic-color: #F0F0F0;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--basic-color);
 }
 
 /* Cabeçalho */
@@ -36,7 +35,7 @@ header {
 .list-items a {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    color: var(--cor-texto);
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
     line-height: 24px;
@@ -46,18 +45,18 @@ header {
 .btn a {
     font-size: 16px;
     line-height: 24px;
-    color: var(--cor-de-texto);
+    color: var(--basic-color);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
 
 .btn-prim a {
-    color: var(--cor-texto);
+    color: var(--text-color);
 }
 
 .btn-sec a {
     border-radius: 1vh;
     padding: 1vh 2vh;
-    background-color: var(--background-color-btn);
+    background-color: var(--main-color);
 }
